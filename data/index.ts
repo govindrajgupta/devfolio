@@ -6,7 +6,7 @@ export const navItems = [
 ];
 
 export const myTechStack = [
-  "JavaScript (ES6+)",
+  "JavaScript (ES7+)",
   "React",
   "Next.js",
   "TypeScript",
@@ -19,7 +19,6 @@ export const myTechStack = [
   "ShadCn/UI",
   "Framer",
   "Git",
-  "TanStack Query",
   "CI/CD",
   "LangChain",
 ]
@@ -156,7 +155,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "assets/linkedin.svg",
-    link: "https://www.linkedin.com/in/govind-raj-gupta-9b5b67326/",
+    link: "https://www.linkedin.com/in/govind-raj-gupta/",
   },
   {
     id: 3,
@@ -165,4 +164,4 @@ export const socialMedia = [
   },
 ];
 
-export const skills = [ "Next.js 15", "TypeScript", "LangChain", "Shadcn/ui", "Vercel"]
+export const skills = [ "Next.js 15", "TypeScript", "LangChain", "Shadcn/ui", "Vercel", "Python"]

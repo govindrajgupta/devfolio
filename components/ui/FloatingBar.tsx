@@ -27,7 +27,7 @@ const FloatingBar = () => {
         style={NAV_CONTAINER_STYLES}
       >
         <Socials />
-        <DownloadCV fileUrl="assets/CV.pdf" fileName="Atzin-Escandia-CV.pdf" />
+        <DownloadCV fileUrl="assets/my_resume.pdf" fileName="Govind-CV.pdf" />
       </motion.div>
     </AnimatePresence>
   );

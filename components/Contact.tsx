@@ -11,9 +11,9 @@ const Contact = () => {
               me.</span>
           </h2>
         </Reveal>
-        <p className="max-w-[700px] mt-10">
-          {"Want more purple neon?"}
-        </p>
+        {/* <p className="max-w-[700px] mt-10">
+          {"Want more purple neon?"} */}
+        {/* </p> */}
         {/* <p className="max-w-[700px] mt-10">
           Download my <a
             className="text-purple font-extrabold hover:scale-105 inline-block transition-transform duration-200"
