@@ -1,9 +1,12 @@
 import { skills } from "@/data";
 import { cn } from "@/lib/utils";
+import GridGlobe from "./GridGlobe";
+
 
 interface BentoGridProps {
   className?: string;
   children?: React.ReactNode;
+
 }
 
 export const BentoGrid: React.FC<BentoGridProps> = ({ className, children }) => (
@@ -57,7 +60,7 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
       )}
 
       <div className={cn(id === 5 && "w-full opacity-80", "absolute right-0 -bottom-5")} />
-
+        
       <div
         className={cn(
           titleClassName,
@@ -106,6 +109,7 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
             <div className="flex flex-wrap gap-2 py-1">
               {skills.map((skill) => (
                 <div
+                
                   key={skill}
                   className="bg-white/10 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-white/20 transition duration-200 ease-in-out"
                 >

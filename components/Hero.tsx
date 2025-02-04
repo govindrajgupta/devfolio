@@ -21,15 +21,15 @@ const Hero = () => {
           <h1 className="text-center text-4xl md:text-6xl lg:text-8xl font-extrabold">
             Hey, I&apos;m {''}
             <span className="bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
-              Atzin Escandia!
+            Govind Raj Gupta!
             </span>
           </h1>
         </Reveal>
         <h2 className="title my-6 text-xl md:text-3xl lg:text-5xl">
-          I&apos;m a Software Developer
+        🚀 Full-Stack Developer | Web3 & AI Enthusiast
         </h2>
         <p className="max-w-[700px] mx-auto">
-          A designer, developer and fitness enthusiast who spends way too much time creating websites that look cool. If you&apos;re into tech, fitness, or just want to chat DM me - let&apos;s make your brand everyone&apos;s crush! 🍓
+        I craft high-performance apps with Next.js, MERN, Blockchain, and LLMs, deploying seamlessly with Docker, AWS & Kubernetes. Passionate about AI & decentralized tech, I thrive on innovation. Let&apos;s build something game-changing! ⚡
         </p>
         <a className="mt-10 mx-auto" href="#contact">
           <Button
@@ -38,6 +38,7 @@ const Hero = () => {
             position="right"
           />
         </a>
+       
       </div>
     </div>
   );

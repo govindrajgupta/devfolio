@@ -10,88 +10,84 @@ export const myTechStack = [
   "React",
   "Next.js",
   "TypeScript",
-  "Jest",
-  "Cypress",
   "Storybook",
   "Performance Testing",
   "HTML",
   "CSS",
-  "SCSS",
-  "Tailwind",
+  "SQL",
+  "TailwindCSS",
   "ShadCn/UI",
-  "Figma",
   "Framer",
   "Git",
   "TanStack Query",
   "CI/CD",
-  "Jira",
-  "Agile"
+  "LangChain",
 ]
 
 export const projects = [
   {
     id: 1,
-    title: "FitLife: Your Gym Buddy in Code",
-    description: "What if your fitness app could help you design websites while tracking your push-ups? This is it. Built with love, sweat, and a bit of JavaScript magic!",
+    title: "🚀 AI Agent: Next-Gen Intelligent Assistant using GenerativeAI",
+    description: "This AI-powered agent leverages LangChain, IBM Watsonx.ai, and Convex to orchestrate complex workflows, automate tasks, and deliver dynamic AI interactions. With real-time updates, secure authentication, and powerful AI tool integrations, it sets a new standard for intelligent assistants ✨ Using - LangChain for natural language processing - IBM Watsonx.ai for AI-powered workflows - Convex for secure authentication - Pinch of Prompt Engineering- Anthropic Claude for dynamic AI interactions - Shadcn/ui for a sleek UI - Vercel for seamless deployment",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     titleClassName: "justify-end",
     img: "https://i.pinimg.com/originals/be/f4/1a/bef41a7d5a877841bbf7d8f9f0d42f14.gif",
-    github: "https://github.com/atzin-escandia",
-    link: "https://www.instagram.com/atzinescandia",
-    techs: ["JavaScript", "React", "NodeJS", "Express", "MongoDB", "Tailwind"]
+    github: "https://github.com/govindrajgupta/nova-mind-ai-agent",
+    link: "/",
+    techs: [ "Next.js 15", "TypeScript", "LangChain", "Clerk", "Convex", "IBM Watsonx.ai", "Anthropic Claude", "Shadcn/ui", "Vercel"]
   },
   {
     id: 2,
-    title: "Timezone Buddy: Never Miss a Workout",
-    description: "You can’t train for a marathon if you're confused about timezones! Sync with your squad no matter where they are and never miss a coding session or a yoga flow.",
+    title: "🛍️ NexStore: Next-Gen E-Commerce Platform",
+    description: "A lightning-fast e-commerce platform with real-time product updates, caching, and secure authentication. Built with Sanity for dynamic content and Clerk for seamless logins, ensuring a smooth shopping experience.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     titleClassName: "justify-start",
     img: "https://i.pinimg.com/originals/84/f6/d1/84f6d14f1f88d34d3956150d19060d3a.gif",
-    github: "https://github.com/atzin-escandia",
-    link: "https://www.threads.net/@atzinescandia",
+    github: "https://github.com/govindrajgupta/nexstore",
+    link: "https://nexstore-silk.vercel.app/",
     techs: ["JavaScript", "React", "NodeJS", "AWS", "GitHub", "Jira"]
   },
   {
     id: 3,
-    title: "Code & Paint: A Creative Playground",
-    description: "What if coding met art? This interactive web builder lets you design while you create. Whether you’re coding a landing page or painting a masterpiece, this is where your creativity comes to life.",
+    title: "🤖 PrimeCraft: AI-Powered Auto-Coding SaaS",
+    description: "PrimeCraft is an AI-driven coding assistant that generates, optimizes, and auto-completes code in real-time. Built with LLMs and LangChain, it streamlines development with intelligent code suggestions, debugging, and automation.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     titleClassName: "justify-center",
     img: "https://i.pinimg.com/originals/54/b5/24/54b52468335fd6eb935e330eb3197b25.gif",
-    github: "https://github.com/atzin-escandia",
-    link: "https://theplumup.com",
+    github: "https://github.com/govindrajgupta/prime-craft",
+    // link: "/",
     techs: ["TypeScript", "React", "NextJS", "CSS", "AWS", "GitHub"]
   },
   {
     id: 4,
-    title: "JavaScript Quest: Level Up Your Code",
-    description: "Time to put your JavaScript skills to the test in an RPG-style adventure. Solve puzzles, defeat bugs, and unlock pro tips as you level up to coding mastery.",
+    title: "NeuroSketch - AI-Powered Handwritten Math Calculator",
+    description: " AI-powered handwritten math calculator inspired by iPad Math Notes/Calculator. It allows users to sketch mathematical expressions and get instant calculations using AI-powered recognition. The project integrates Google Gemini AI for advanced recognition and FastAPI for backend processing.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     titleClassName: "justify-start",
     img: "https://i.pinimg.com/736x/c7/de/01/c7de016c811fa5fae9d7120402f27645.jpg",
-    github: "https://github.com/atzin-escandia",
-    link: "https://theplumup.com",
+    github: "https://github.com/govindrajgupta/neuro-sketch._",
+    // link: "/",
     techs: ["JavaScript", "NodeJS", "Express", "React", "Heroku", "GitHub"]
   },
   {
     id: 5,
-    title: "JS Animation Magic: Making Transitions Dance",
-    description: "No more boring fades or slides. Animate your website with smooth, interactive animations that will have users tapping their feet. It's magic, but with code!",
+    title: "CareVaultX - Patient Management System",
+    description: "CareVaultX is an patient management system designed to streamline healthcare operations by automating patient record management, diagnosis assistance, and real-time monitoring. This project was showcased in the Microsoft Imagine Cup, highlighting its innovation in digital healthcare. Doctors & patients register securely using Clerk authentication , analyzes medical records & symptoms for diagnosis suggestions ,Doctors manage treatments & prescriptions via an intuitive dashboard ,Real-time monitoring ensures up-to-date patient history",
     className: "md:col-span-3 md:row-span-2",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "https://i.pinimg.com/736x/09/2e/25/092e252b5562c7e5eb576215c6d9db8d.jpg",
-    github: "https://github.com/atzin-escandia",
-    link: "https://theplumup.com/about",
+    github: "https://github.com/govindrajgupta/care-vault",
+    link: "https://care-vault.vercel.app/",
     techs: ["JavaScript", "CSS", "React", "Tailwind", "GitHub", "AWS"]
   },
   {
     id: 6,
-    title: "Space Explorer App: Code Your Way Through the Cosmos",
-    description: "Ever wanted to explore space? Now you can—without leaving your desk. Navigate through galaxies, discover planets, and learn about the universe, all while building your dream website.",
+    title: "Heart Monitoring System IoT Project",
+    description: "A real-time IoT solution for tracking heart rate and body temperature using Arduino Uno, Pulse Sensor, and ESP32. The system sends instant alerts via Twilio API when abnormal vitals are detected.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     img: "https://i.pinimg.com/originals/bf/c3/fb/bfc3fb764ff5f4d8d9ecb6da8544709c.gif",
-    github: "https://github.com/atzin-escandia",
-    link: "https://atzinescandia.com/contact",
+    github: "https://github.com/govindrajgupta/iot-heart-monitoring-system",
+    link: "https://projecthub.arduino.cc/projects/cbfabcdf-38bf-432b-bc8f-6a03b10638f3/preview",
     techs: ["JavaScript", "React", "NodeJS", "CSS", "NextJS", "GitHub"]
   }
 ];
@@ -169,4 +165,4 @@ export const socialMedia = [
   },
 ];
 
-export const skills = ["TypeScript", "React", "Redux", "NodeJS", "NextJS", "Tailwind"];
+export const skills = [ "Next.js 15", "TypeScript", "LangChain", "Shadcn/ui", "Vercel"]

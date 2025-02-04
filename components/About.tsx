@@ -19,15 +19,13 @@ const About = () => (
         className="flex-col text-left p-3 md:p-5 lg:p-10 gap-5 min-h-full"
       >
         <p>
-          &quot;Hey! I&apos;m Atzin — web designer, developer, fitness lover somehow and accidental content creator.
+        Hey! I&apos;m Govind — Full-Stack Developer, Web3 Enthusiast & AI Innovator..
         </p>
         <p>
-          My background in design and development gives me the tools to bring ideas to life, but my heart is in
-          connecting with people. I love sharing my journey and what I&apos;ve learned along the way.
+        I specialize in Next.js, MERN, Blockchain, LLMs, and Web3, building high-performance applications that push the boundaries of tech. Beyond coding, I&apos;m passionate about problem-solving, innovation, and shaping the future of AI and decentralized systems.
         </p>
         <p>
-          Got something in mind or just want to chat? Whether it&apos;s a new project or a fitness tip, I&apos;d love to
-          connect, don&apos;t be shy!
+        I believe great ideas deserve flawless execution, and I&apos;m always up for a challenge. Whether it&apos;s crafting the next big thing or exploring cutting-edge tech, let&apos;s build something extraordinary! 🚀
         </p>
       </Sparkle>
 

@@ -3,6 +3,7 @@
 import { projects } from "@/data";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import Reveal from "./ui/Reveal";
+import GridGlobe from "./ui/GridGlobe";
 
 const Projects = () => {
   return (
@@ -12,6 +13,7 @@ const Projects = () => {
           Recent{" "}
           <span className="bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
             projects.</span>
+            {/* <GridGlobe/> */}
         </h3>
       </Reveal>
       <BentoGrid className="w-full py-20">

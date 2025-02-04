@@ -8,6 +8,7 @@ import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/ui/NavBar";
+import Approach from "@/components/Approach";
 
 const Home = () => {
   return (
@@ -19,7 +20,8 @@ const Home = () => {
           <Hero />
           <About />
           <Projects />
-          <Experience />
+          {/* <Experience /> */}
+          <Approach />
           <Contact />
         </div>
         <Footer />

@@ -14,23 +14,25 @@ const Contact = () => {
         <p className="max-w-[700px] mt-10">
           {"Want more purple neon?"}
         </p>
-        <p className="max-w-[700px] mt-10">
+        {/* <p className="max-w-[700px] mt-10">
           Download my <a
             className="text-purple font-extrabold hover:scale-105 inline-block transition-transform duration-200"
             target="_blank"
             href="https://vscodethemes.com/e/atzinescandia.theplumup/theplumup/open?with=vscode"
           >
             VSCode theme
-          </a> for free!
-        </p>
+          </a> 
+        </p> */}
 
-        <a className="mt-10" href="mailto:hello@theplumup.com">
+        <a className="mt-10" href="mailto:gg7078417058@gmail.com">
           <Button
             title="Let's connect"
             icon={<img src="assets/send.svg" />}
             position="right"
+            
           />
         </a>
+        
       </div>
     </section>
   );
