@@ -17,7 +17,7 @@
     </a>
   </div>
 
-  <h3 align="center">Atzin Escandia's Devfolio</h3>
+  <h3 align="center">Govind's Devfolio</h3>
   <p align="center">A super easy, simple, and neon purple (pretty me) ready to create your developer portfolio. Because who has time for complicated setups?</p>
 </div>
 
