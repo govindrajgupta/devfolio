@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/" sizes="any" />
+        <link rel="icon" href="/logo.svg" sizes="any" />
       </head>
       <body className={`${poppins.className}`}>
         {children}
