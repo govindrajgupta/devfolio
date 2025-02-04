@@ -151,17 +151,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "assets/git.svg",
-    link: "https://github.com/atzin-escandia",
+    link: "https://github.com/govindrajgupta",
   },
   {
     id: 2,
     img: "assets/linkedin.svg",
-    link: "https://www.linkedin.com/in/atzin-escandia/",
+    link: "https://www.linkedin.com/in/govind-raj-gupta-9b5b67326/",
   },
   {
     id: 3,
     img: "assets/link.svg",
-    link: "https://theplumup.com/",
+    link: "/",
   },
 ];
 
