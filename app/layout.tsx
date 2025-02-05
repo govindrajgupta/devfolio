@@ -22,7 +22,7 @@ export default function RootLayout({
 }
 
 
-// Change this data with your own 🤭
+// Change this data with your own 
 export const metadata: Metadata = {
   title: {
     default: 'Govind ✷ Portfolio',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   description:"I'm a Full Stack Developer, I love to build things that make a difference.",
   icons: {
-    icon: './favicon.ico',
+    // icon: './favicon.ico',
   },
   applicationName: 'Frontend Portfolio Template by Govind Raj Gupta',
   authors: [
